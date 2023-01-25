@@ -9,8 +9,8 @@ import { getTextImageDataAction } from "../redux/textImage/textImageActions";
 
 
 /**
- * hook that dispatch all commands at start of the site 
- * to gete all information 
+ * hook that dispatch all commands at load of the site 
+ * to get all information 
  */
  const useDispatchAllAtStart = ()=>
 {   
